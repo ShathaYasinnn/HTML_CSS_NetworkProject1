@@ -1,0 +1,148 @@
+// Network 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ENCS3320 - Computer Networks Webserver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ENCS3320 - Computer Networks Webserver</h1>
+    </header>
+
+    <section>
+        <h2>Team Members</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="member1.png" alt="Member 1">
+                    <h3>John Doe</h3>
+                    <p>ID: 123456</p>
+                    <p>John has worked on networking projects, proficient in Python and C++.</p>
+                </td>
+                <td>
+                    <img src="member2.png" alt="Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>ID: 654321</p>
+                    <p>Jane is a web development enthusiast, skilled in JavaScript and CSS.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Topic: Introduction to Computer Networks</h2>
+        <p>This section provides an overview of computer networks, discussing various protocols.</p>
+        <img src="network_intro.jpg" alt="Network Introduction">
+        <ul>
+            <li>Network protocols</li>
+            <li>OSI Model</li>
+        </ul>
+        <ol>
+            <li>Layer 1: Physical Layer</li>
+            <li>Layer 2: Data Link Layer</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>For more resources, visit:</p>
+        <ul>
+            <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">Textbook Website</a></li>
+            <li><a href="https://ritaj.birzeit.edu/" target="_blank">Ritaj Website</a></li>
+        </ul>
+
+        <p>Visit the <a href="supporting_material_en.html">Supporting Materials</a> page for more content.</p>
+    </footer>
+</body>
+</html>
+
+
+/////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting Materials</title>
+</head>
+<body>
+    <h1>Supporting Materials</h1>
+    <p>Additional resources and links related to Computer Networks.</p>
+    <ul>
+        <li><a href="https://www.example.com" target="_blank">Resource 1</a></li>
+        <li><a href="https://www.example2.com" target="_blank">Resource 2</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
